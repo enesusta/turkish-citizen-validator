@@ -6,6 +6,4 @@ import javax.xml.soap.SOAPMessage;
 
 public interface CitizenValidator {
     boolean validate(Citizen citizen);
-
-    boolean request(SOAPMessage soapMessage);
 }

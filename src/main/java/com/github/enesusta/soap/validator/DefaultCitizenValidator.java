@@ -29,8 +29,7 @@ public class DefaultCitizenValidator implements CitizenValidator {
         return result;
     }
 
-    @Override
-    public final boolean request(final SOAPMessage soapMessage) {
+    private boolean request(final SOAPMessage soapMessage) {
 
         Boolean result = null;
         try {
